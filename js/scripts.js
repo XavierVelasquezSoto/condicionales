@@ -130,3 +130,44 @@ function getAverage(a,b,c){
 }
 getAverage(1,2,3);
  */
+
+/*  
+function example(a, b) {
+  console.log(a + b);
+}
+
+function printDouble(n) {
+  console.log(n * 2);
+}
+
+example(1, 2);
+
+function example(a, b) {
+  return a + b;
+}
+
+const resultA = example(1, 2);
+console.log(resultA);
+*/
+
+function example(a, b) {
+  return a + b;
+}
+
+function printDouble(number) {
+  console.log(number * 2);
+}
+
+const resultA = example(1, 2);
+const resultB = example(6, 3);
+printDouble(resultA);
+printDouble(resultB);
+
+//
+
+function sayHello(name) {
+  return 'Hola ' + name;
+}
+
+const resultSayHello = sayHello('Josefa');
+console.log(resultSayHello);
