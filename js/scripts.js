@@ -110,4 +110,11 @@ function year(a) {
 year(1900);
 year(2224);
 
-//
+/* 
+abc
+acb
+bac
+bca
+cab
+cba
+ */
