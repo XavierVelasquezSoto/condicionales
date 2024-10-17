@@ -118,3 +118,15 @@ bca
 cab
 cba
  */
+
+/* 
+function getAverage(a,b,c){
+    const average = (a+b+c) / 3;
+    if (average > 5) {
+    console.log( 'Aprobado');
+    } else{
+    console.log('Suspenso'); 
+    }
+}
+getAverage(1,2,3);
+ */
