@@ -28,17 +28,9 @@ function number(one,two){
 number(27,30)
 
 
-function numberConsole(a, b, c){
+function numberConsole(a,b,c){
     
-    if (a < b || b < a){
-        console.log(  'es un número negativo')
-    }else if (a > b > c){
-        console.log ('es un número positivo')
-    }
-    else{
-        console.log('es cero')
-    }
+    
 }
 
-numberConsole(5,5)
-numberConsole(5,1,5)
+
