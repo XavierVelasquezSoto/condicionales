@@ -18,6 +18,7 @@ hello('xavier',8)
 hello('xavier',32)
 
 
+
 function number(a,b)
 {
   if(a !== b)
@@ -31,32 +32,36 @@ function number(a,b)
         console.log (b)
         }
    
-    }
-    
-    
-  
-   
+    }  
 
 }
 
 number(33,30)
 
 
-function numberConsole(a){
-    if ( a < -5 ) {
-        console.log( a + ' es negativo')
-    }
-    else if ( a > 10 ){
-        console.log ( a + ' es positivo')
 
+function numberConsole(a)
+{
+    if(a<0)
+    {
+        console.log ( ' es un número negativo');
     }
 
-    else{
-        console.log ( ' es cero')
+    else if (a>0)
+    {
+        console.log ( ' es un número positivo');
+        
     }
-    
+    else
+    {
+        console.log (' es cero')
+    }
+
 }
 
-numberConsole(-6)
-numberConsole(15)
-numberConsole(1)
+numberConsole(-5)
+numberConsole(5)
+numberConsole(0)
+
+
+
