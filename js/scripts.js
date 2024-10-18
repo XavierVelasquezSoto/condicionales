@@ -133,7 +133,18 @@ function twoDigit(a,b){
 twoDigit(20,10)
 
 
+function doubleNumber(a,b){
+  if (a === 2*b){
+    return a + ' es el doble ' + b;
+  }else if (b === 2*a){
+    return b + ' es el doble de ' + a;
+  }else {
+    return 'Ninguno es el doble del otro';
+  }
+}
 
+resultDouble = doubleNumber(30,15);
+console.log(resultDouble);
 
 
 
