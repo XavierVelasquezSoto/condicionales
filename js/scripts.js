@@ -112,12 +112,25 @@ year(2224);
 
 //
 
-function oneNumber(numberA){
-  if(){
-    
+function threeDigit(numberOne){
+  if (numberOne >= 100 && numberOne <= 999 ){
+    console.log('Tiene 3 digitos');
+  }else{
+    console.log('No tiene 3 digitos');
   }
-
 }
+
+threeDigit(200);
+
+function twoDigit(a,b){
+  if (a % b === 0 ){
+    console.log('El primero es multiplo del segundo')
+  } else{
+    console.log('No es multiplo del segundo')
+  }
+}
+
+twoDigit(20,10)
 
 
 
