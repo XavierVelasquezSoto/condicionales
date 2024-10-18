@@ -110,7 +110,14 @@ function year(a) {
 year(1900);
 year(2224);
 
+//
 
+function oneNumber(numberA){
+  if(){
+    
+  }
+
+}
 
 
 
