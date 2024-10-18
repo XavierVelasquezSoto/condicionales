@@ -1,5 +1,5 @@
 function hello(name, age) {
-  if (age >= 18) {
+  if (age > 18) {
     console.log('Hola ' + name + ', eres menor de edad');
   } else {
     console.log('Hola ' + name + ', eres mayor');
@@ -43,7 +43,7 @@ function calification(numberA, numberB, numberC) {
   const media = (numberA + numberB + numberC) / 3;
 
   if (media > 0 && media < 5) {
-    console.log('suspenso');
+    console.log('Suspenso');
   } else if (media >= 5 && media < 8) {
     console.log(' Aprobada');
   } else {
@@ -51,7 +51,7 @@ function calification(numberA, numberB, numberC) {
   }
 }
 
-calification(8, 8, 5);
+calification(8,8,5);
 
 //
 
@@ -110,7 +110,15 @@ function year(a) {
 year(1900);
 year(2224);
 
+
+
+
+
+
+
+
 /* 
+(Son ejemplos, ignorar)
 abc
 acb
 bac
@@ -149,7 +157,7 @@ function example(a, b) {
 const resultA = example(1, 2);
 console.log(resultA);
 */
-
+/*  
 function example(a, b) {
   return a + b;
 }
@@ -162,8 +170,10 @@ const resultA = example(1, 2);
 const resultB = example(6, 3);
 printDouble(resultA);
 printDouble(resultB);
+*/
 
 //
+/*  
 
 function sayHello(name) {
   return 'Hola ' + name;
@@ -171,3 +181,5 @@ function sayHello(name) {
 
 const resultSayHello = sayHello('Josefa');
 console.log(resultSayHello);
+
+*/
