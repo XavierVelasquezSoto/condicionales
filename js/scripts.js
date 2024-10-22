@@ -133,7 +133,7 @@ const  threeNumber = (num1, num2, num3) => {
     return `${num3} es mayor`
 }
 
-const resultThreeNumber = threeNumber(25,8,20)
+const resultThreeNumber = threeNumber(25,38,20)
 console.log(resultThreeNumber)
 
 //6 - Crea una función que reciba un número entero y devuelva "Es divisible por 3" si es divisible por 3, "Es divisible por 5" si es divisible por 5, y "Es divisible por 3 y por 5" si es divisible por ambos. Si no es divisible por ninguno, devuelve el número.
@@ -153,6 +153,26 @@ number(30);
 number(25);
 number(9); */
 
+const wholeNumber = (number) => {
+  if (number % 3 === 0 && number % 5 === 0){
+    return `Es divisible por 3 y 5`;
+  } else if (number % 5 === 0){
+    return `Es divisible por 5`;
+  } else if (number % 3 === 0){
+    return `Es divisible por 3`;
+  }else{
+    
+  }
+}
+
+const resultWholeNumber1 = wholeNumber(90);
+console.log(resultWholeNumber1)
+const resultWholeNumber2 = wholeNumber(25);
+console.log(resultWholeNumber2)
+const resultWholeNumber3 = wholeNumber(9);
+console.log(resultWholeNumber3)
+
+
 //7 - Crea una función que reciba un número entero y determine si es par o impar. Imprime por consola "Es un número par" o "Es un número impar" en función del resultado.
 
 /* function evenOdd(a) {
@@ -165,6 +185,16 @@ number(9); */
 
 evenOdd(12);
 evenOdd(9); */
+
+const whole = (num) => {
+  if(num % 2 === 0){
+    return `Es par`
+  }
+    return `Es impar`
+}
+
+const resultWhole = whole(4);
+console.log(resultWhole)
 
 //8 - Crea una función que reciba un año y determine si es un año bisiesto. Un año es bisiesto si es divisible por 4, pero no es divisible por 100, a menos que también sea divisible por 400. Imprime por consola "Es un año bisiesto" o "No es un año bisiesto" en función del resultado
 
@@ -179,6 +209,42 @@ evenOdd(9); */
 year(1900);
 year(2224); */
 
+const oneYear = (year) => {
+  if(year % 4 === 0 && year % 100!==0 || year % 400 === 0){
+    return `Es bisiesto`
+  }else {
+    return `No es bisiesto`
+  }
+}
+const resultOneYear1 = oneYear(2024);
+console.log(resultOneYear1);
+const resultOneYear2 = oneYear(1500);
+console.log(resultOneYear2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -190,18 +256,6 @@ bac
 bca
 cab
 cba
- */
-
-/* 
-function getAverage(a,b,c){
-    const average = (a+b+c) / 3;
-    if (average > 5) {
-    console.log( 'Aprobado');
-    } else{
-    console.log('Suspenso'); 
-    }
-}
-getAverage(1,2,3);
  */
 
 /*  
